@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    height: 100%;
+}
+
+body {
+    background-color: mediumorchid;
+}
+
+/* Navbar */
+nav {
+    width: 80px;
+    height: 100%;
+    background-color: blueviolet;
+    position: absolute;
+    right: 0;
+}
+
+nav ul {
+    list-style: none;
+    width: inherit;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+}
+
+nav li {
+    width: inherit;
+    height: inherit;
+    
+}
+
+nav button {
+    width: inherit;
+    height: inherit;
+    display: block;
+    border: hidden;
+}
+
+nav button:hover {
+    transition: 1s;
+    background-image: linear-gradient(rgb(255 255 255/20%) 0 0);
+}
+
+#purpletab {
+    background-color: mediumorchid;
+}
+
+#redtab {
+    background-color: mediumvioletred;
+}
+
+
+#greentab {
+    background-color: mediumseagreen;
+}
+
+
+#bluetab {
+    background-color: mediumslateblue;
+}
