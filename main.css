@@ -3,65 +3,50 @@
     margin: 0;
     padding: 0;
 }
-html {
-    height: 100%;
-}
 
 body {
-    background-color: mediumorchid;
+    height: 100vh;
 }
 
 /* Navbar */
 nav {
-    width: 80px;
-    height: 100%;
-    background-color: blueviolet;
+    width: 120px;
+    height: inherit;
     position: absolute;
     right: 0;
 }
 
 nav ul {
-    list-style: none;
-    width: inherit;
     height: inherit;
+    list-style: none;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: start;
 }
 
-nav li {
-    width: inherit;
-    height: inherit;
-    
-}
-
-nav button {
-    width: inherit;
-    height: inherit;
-    display: block;
+.tab {
+    flex: 1;
     border: hidden;
 }
 
-nav button:hover {
-    transition: 1s;
-    background-image: linear-gradient(rgb(255 255 255/20%) 0 0);
+.box {
+    height: inherit;
+    width: 100%;
 }
 
-#purpletab {
+/* attributes */
+.bg-purple {
     background-color: mediumorchid;
 }
-
-#redtab {
+.bg-red {
     background-color: mediumvioletred;
 }
-
-
-#greentab {
+.bg-green {
     background-color: mediumseagreen;
 }
-
-
-#bluetab {
+.bg-blue {
     background-color: mediumslateblue;
+}
+
+.hidden {
+    display: none;
 }

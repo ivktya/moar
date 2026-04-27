@@ -3,6 +3,8 @@
     <head>
         <meta charset="UTF-8" />
 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
         <meta property="og:url" content="https://ivktya.github.io/"/>
         <meta property="og:title" content="my homepage!! :3" />
         <meta property="og:site_name" content="MOAR" />
@@ -11,16 +13,22 @@
         <title>MOAR</title>
 
         <link rel="stylesheet" href="main.css" />
-        <script src="script.js" />
     </head>
     <body>
         <nav>
             <ul>
-                <li><button id="purpletab">tab1</button></li>
-                <li><button id="redtab">tab2</button></li>
-                <li><button id="greentab">tab3</button></li>
-                <li><button id="bluetab">tab4</button></li>
+                <li class="tab bg-purple" data-index="0">tab1</li>
+                <li class="tab bg-red" data-index="1">tab2</li>
+                <li class="tab bg-green" data-index="2">tab3</li>
+                <li class="tab bg-blue" data-index="3">tab4</li>
             </ul>
         </nav>
+        
+        <article class="box bg-purple">pagina 1</article>
+        <article class="box bg-red hidden">pagina 2</article>
+        <article class="box bg-green hidden">pagina 3</article>
+        <article class="box bg-blue hidden">pagina 4</article>
+
+        <script src="script.js"></script>
     </body>
 </html>
