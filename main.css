@@ -26,14 +26,22 @@ nav ul {
 .tab {
     flex: 1;
     border: hidden;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    padding-right: 0.4em;
+    font-family: title;
+    text-align: center;
+    font-size: 2em;
+    color: beige;
 }
 
 .box {
     height: inherit;
     width: 100%;
+    padding: 5vh;
 }
 
-/* attributes */
+/* attributes - make new file later */
 .bg-purple {
     background-color: mediumorchid;
 }
@@ -50,3 +58,17 @@ nav ul {
 .hidden {
     display: none;
 }
+
+/* fonts */
+@font-face {
+    font-family: title;
+    font-weight: normal;
+    src: url(/fonts/matcha_cih.otf);
+}
+/*
+@font-face {
+    font-family: generic;
+    font-weight: normal;
+    src: url(../fonts/monommm.ttf);
+}
+    */
