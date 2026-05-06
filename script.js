@@ -14,3 +14,11 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 });
+/* not working, need php i think
+var crochet = [];
+for (var i = 1; i < 10; i++) {
+    a = new Image();
+    a.onload = function() {crochet.push(this);}
+    a.src=`/gallery/crochet/${i}.jpg`;
+}
+*/
